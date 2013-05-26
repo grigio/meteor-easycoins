@@ -1,6 +1,6 @@
 Easycoins
 -
-A multiplayer demo game made with MeteorJS where you have to pick up as mush coins as possible
+A multiplayer demo game made with MeteorJS where you have to pick up as much coins as possible
 
 Demo
 --
