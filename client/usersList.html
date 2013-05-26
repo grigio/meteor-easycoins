@@ -1,0 +1,16 @@
+<template name="usersList">
+  <div id="usersList" class="box">
+  <h4>Online Connections</h4>
+  <p> 
+    {{#each users }}
+      {{> user}}
+    {{/each }}
+  </p>
+  </div>
+</template>
+
+<template name="user">
+  <p>
+    <span style="{{#highlight _id}}{{/highlight}}" id="{{ _id }}">{{ username }}</span>: {{ clicks }}฿
+  </p>
+</template>

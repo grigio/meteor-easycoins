@@ -1,0 +1,33 @@
+<head>
+  <title>Easycoins</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+
+<h1>Easycoins</h1>
+<p>
+  Click on the ฿ coins as fast as possible!
+</p>
+  <div class="container">
+
+    <div class="row">
+      <div class="span7">
+        {{> gameTable }}
+      </div>
+      <div class="span3">
+        {{> usersList }}
+      </div>
+    </div> <!-- row -->
+
+<p>
+Free Bitcoins for everybody, at least until you reload :P<br>
+If you like the experimental game tweet me (<a href="https://twitter.com/grigi0">@grigi0</a>) something or visit my <a href="http://grigio.org">blog</a>.
+</p>
+
+  </div>
+
+{{> analytics }}
+</body>
+
+<template name="analytics"></template>

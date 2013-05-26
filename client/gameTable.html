@@ -1,0 +1,19 @@
+<template name="gameTable">
+  <div id="gameTable">
+
+      {{#each cells }}
+        {{> cell}}
+      {{/each }}
+
+  </div>
+</template>
+
+<template name="cell">
+  <div class="cell">
+
+  <span class="coin" id="{{ pos }}" style="display:{{#display value }}{{/display}}">
+    {{#coin value}}{{/coin}}
+  </span>
+
+  </div>
+</template>

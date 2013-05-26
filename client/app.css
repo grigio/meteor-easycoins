@@ -1,0 +1,84 @@
+.cell {
+  display: block;
+  height: 100px;
+  width: 100px;
+  /*background-color: red;*/
+  float: left;
+
+}
+
+.coin {
+  display: block;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    font-size: 36px;
+  text-align: center;
+    cursor: crosshair;
+}
+
+.coin span {
+  display: block;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.box {
+  background: white;
+  border: 2px solid #1abc9c;
+  border-radius: 6px;
+  padding: 6px 1px 1px 6px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+  #gameTable{
+    background-color: #eee;
+    width: 500px;
+    height: 500px;
+  }
+
+/* Mobile adaptation */
+@media all and (max-width: 800px){
+  .span1,
+  .span2,
+  .span3,
+  .span4,
+  .span5,
+  .span6,
+  .span7,
+  .span8,
+  .span9,
+  .span10,
+  .span11,
+  .span12,
+  .container {
+    width: 100%;
+  }
+
+  .span3 {
+    width: 90%;
+  }
+
+  #gameTable{
+    margin-left: auto;
+    margin-right: auto;
+    zoom: .59;
+  }
+
+  .coin{
+    zoom: 1.5;
+  }
+
+  .box {
+    border: 0px solid #1abc9c;
+  }
+
+}
